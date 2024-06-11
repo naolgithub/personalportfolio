@@ -1,6 +1,6 @@
 import parthmittal from "./parth.svg";
 import naol from "./naol.svg";
-// import tesfaye from "./tesfaye.svg";
+import tesfish from "./tesfish.svg";
 import profilePic from "./tesfaye-photo.jpeg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -91,6 +91,7 @@ export {
   cdc,
   parthmittal,
   naol,
+  tesfish,
   profilePic,
   chargeswap,
   placeicon,

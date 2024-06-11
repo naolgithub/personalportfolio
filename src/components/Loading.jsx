@@ -1,8 +1,8 @@
 import styles from "../style";
 import { motion } from "framer-motion";
 // import { parthmittal } from "../assets";
-import { naol } from "../assets";
-// import { tesfaye } from "../assets";
+// import { naol } from "../assets";
+import { tesfish } from "../assets";
 const Loading = ({isLoading}) => {
     return(
         <motion.div
@@ -17,7 +17,7 @@ const Loading = ({isLoading}) => {
             }}
           >
               <img
-                src={naol}
+                src={tesfish}
                 alt="Tesfaye Adugna"
                 className="w-[80px] h-[80px]"
               />

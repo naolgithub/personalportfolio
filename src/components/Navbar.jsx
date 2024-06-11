@@ -1,7 +1,7 @@
 import { useState } from "react";
 // import { close, parthmittal, menu } from "../assets";
-import { close, naol, menu } from "../assets";
-
+// import { close, naol, menu, tesfish } from "../assets";
+import { close, tesfish, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* Logo */}
       <a href="#home">
         <img
-          src={naol}
+          src={tesfish}
           alt="Tesfaye Adugna"
           className="w-[80px] h-[80px]"
         />
