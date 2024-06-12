@@ -135,7 +135,7 @@ const OpenSource = () => {
   return (
     <div>
       <iframe
-        src="Elshadai_Tegegn_CV_Jan23.pdf"
+        src="../assets/Elshadai_Tegegn_CV_Jan23.pdf"
         frameBorder="0"
         style={{ width: "100%", height: "100vh" }}
         title="PDF Viewer"

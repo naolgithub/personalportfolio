@@ -10,6 +10,7 @@ import {
   ExtraCurricular,
   Footer,
   OpenSource,
+  ResumeViewer,
   Projects,
   BlogPosts,
   Loading,
@@ -59,7 +60,8 @@ const App = () => {
               <Education />
               <Projects />
               <BlogPosts enabled={false} />
-              <OpenSource />
+              {/* <OpenSource /> */}
+              <ResumeViewer/>
               <ExtraCurricular />
             </div>
           </div>

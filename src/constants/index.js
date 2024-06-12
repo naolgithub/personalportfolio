@@ -82,6 +82,15 @@ import {
   SiGooglecloud,
   SiNextdotjs,
   SiMicrosoftazure,
+  SiTypescript,
+  SiAngular,
+  SiTensorflow,
+  SiPytorch,
+  SiPandas,
+  SiNumpy,
+  SiNodedotjs,
+  SiDart,
+  SiFirebase,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -90,7 +99,7 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 
 import { FaGolang } from "react-icons/fa6";
 
-import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
+import { DiCss3, DiDart, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
 export const resumeLink =
   "https://drive.google.com/file/d/1dp9zYqgvYBNga49JDnm5lizsT1rWQRCa/view?usp=sharing";
@@ -111,9 +120,13 @@ export const navLinks = [
     id: "projects",
     title: "Projects",
   },
+  // {
+  //   id: "openSource",
+  //   title: "Open Source",
+  // },
   {
-    id: "openSource",
-    title: "Open Source",
+    id: "resume",
+    title: "Resume",
   },
   {
     id: "extraCurricular",
@@ -131,7 +144,7 @@ export const educationList = [
     icon: aait,
     title: "Addis Ababa Institute of Technology",
     degree: "Bachelor of Science",
-    duration: "December 2020 - July 2024",
+    duration: "Sept 2019 - July 2024",
     content1: "Software Engineering",
     content2: "Machine Learning",
   },
@@ -143,8 +156,8 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
+        icon: DiDart,
+        name: "Dart",
       },
       {
         id: "pl-2",
@@ -158,13 +171,13 @@ export const skills = [
       },
       {
         id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
+        icon: SiJavascript,
+        name: "Javascript",
       },
       {
         id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
+        icon: SiTypescript,
+        name: "Typescript",
       },
       {
         id: "pl-6",
@@ -186,16 +199,6 @@ export const skills = [
         icon: DiCss3,
         name: "CSS",
       },
-      {
-        id: "pl-10",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
     ],
   },
   {
@@ -208,8 +211,8 @@ export const skills = [
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        icon: SiFlask,
+        name: "Flask",
       },
       {
         id: "f-3",
@@ -228,18 +231,43 @@ export const skills = [
       },
       {
         id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
+        icon: SiNodedotjs,
+        name: "Node.js",
       },
       {
         id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
+        icon: SiNumpy,
+        name: "Numpy",
       },
       {
         id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
+        icon: SiPandas,
+        name: "Pandas",
+      },
+      {
+        id: "f-9",
+        icon: SiFlutter,
+        name: "Flutter",
+      },
+      {
+        id: "f-10",
+        icon: SiAngular,
+        name: "Angular",
+      },
+      {
+        id: "f-11",
+        icon: SiTensorflow,
+        name: "Tensorflow",
+      },
+      {
+        id: "f-12",
+        icon: SiPytorch,
+        name: "Pytorch",
+      },
+      {
+        id: "f-13",
+        icon: SiSpringboot,
+        name: "SpringBoot",
       },
     ],
   },
@@ -578,23 +606,8 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI",
-      },
-      {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform",
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask",
+        icon: SiDart,
+        name: "Dart",
       },
     ],
   },
@@ -614,28 +627,23 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
+        icon: SiDart,
+        name: "Dart",
       },
       {
         id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js",
+        icon: SiFigma,
+        name: "Figma",
       },
       {
         id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS",
+        icon: SiFirebase,
+        name: "Firebase",
       },
       {
         id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
+        icon: SiGooglemaps,
+        name: "Google Maps API",
       },
     ],
   },
@@ -655,23 +663,38 @@ export const projects = [
       },
       {
         id: "icon-2",
+        icon: SiDart,
+        name: "Dart",
+      },
+      {
+        id: "icon-3",
         icon: SiHtml5,
         name: "Html",
       },
       {
-        id: "icon-3",
+        id: "icon-4",
         icon: SiCss3,
         name: "CSS",
       },
       {
-        id: "icon-4",
+        id: "icon-5",
         icon: SiBootstrap,
         name: "Bootstrap",
       },
       {
-        id: "icon-5",
+        id: "icon-6",
         icon: SiSpringboot,
         name: "SpringBoot",
+      },
+      {
+        id: "icon-7",
+        icon: SiJavascript,
+        name: "Javascript",
+      },
+      {
+        id: "icon-8",
+        icon: SiMysql,
+        name: "Mysql",
       },
     ],
   },

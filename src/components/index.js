@@ -6,6 +6,7 @@ import Education from "./Education";
 import SkillsAndExperience from "./SkillsAndExperience";
 import Projects from "./Projects";
 import OpenSource from "./OpenSource";
+import ResumeViewer from "./ResumeViewer";
 import ExtraCurricular from "./ExtraCurricular";
 import Footer from "./Footer";
 import Button from "./Button";
@@ -21,6 +22,7 @@ export {
     SkillsAndExperience,
     Projects,
     OpenSource,
+    ResumeViewer,
     ExtraCurricular,
     Footer,
     Button,
