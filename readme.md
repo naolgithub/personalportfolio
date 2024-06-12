@@ -39,7 +39,7 @@
 - Skills & Experience
 - Education
 - Projects
-- Open Source
+- Resume
 - Extra Curricular
 - Contact Me
 
